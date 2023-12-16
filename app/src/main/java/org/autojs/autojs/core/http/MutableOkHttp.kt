@@ -14,6 +14,19 @@ class MutableOkHttp : OkHttpClient() {
     private var mOkHttpClient: OkHttpClient
     private val maxRetries = 3
     private var mTimeout = 30 * 1000L
+    private var mTimeoutInterceptor = Interceptor { chain: Interceptor.Chain ->
+
+        val request = chain.request()
+        val timeout = request.header("autojs6Timeout")?.toIntOrNull()?:0
+        if (timeout==0){
+            chain.proceed(request)
+        }else{
+            chain.withConnectTimeout(timeout, TimeUnit.MILLISECONDS)
+                .withReadTimeout(timeout, TimeUnit.MILLISECONDS)
+                .withWriteTimeout(timeout, TimeUnit.MILLISECONDS)
+                .proceed(request)
+        }
+    }
     private val mRetryInterceptor = Interceptor { chain: Interceptor.Chain ->
         val request = chain.request()
         var response: Response? = null
@@ -49,7 +62,7 @@ class MutableOkHttp : OkHttpClient() {
         builder.readTimeout(timeout, TimeUnit.MILLISECONDS)
             .writeTimeout(timeout, TimeUnit.MILLISECONDS)
             .connectTimeout(timeout, TimeUnit.MILLISECONDS)
-        for (interceptor in listOf(mRetryInterceptor)) {
+        for (interceptor in listOf(mRetryInterceptor,mTimeoutInterceptor)) {
             builder.addInterceptor(interceptor)
         }
         return builder.build()
@@ -58,6 +71,9 @@ class MutableOkHttp : OkHttpClient() {
     var timeout: Long
         get() = mTimeout
         set(timeout) {
+            if (timeout==mTimeout){
+                return
+            }
             mTimeout = timeout
             muteClient()
         }
@@ -68,6 +84,8 @@ class MutableOkHttp : OkHttpClient() {
     }
 
     @Synchronized
-    private fun muteClient() = muteClient(mOkHttpClient.newBuilder())
+    private fun muteClient() = muteClient(mOkHttpClient.newBuilder().apply {
+        interceptors().clear()
+    })
 
 }

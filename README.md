@@ -41,6 +41,17 @@ AutoJs6 在 Auto.js 最终项目的基础上, 于 `2021/12/01` 进行二次开�
 |      [AutoX](https://github.com/kkevsekk1/AutoX)      | Autox.js / Autox.js v6 |       [kkevsekk1](https://github.com/kkevsekk1)       | `2020/07/24` |
 | [AutoJs6](https://github.com/SuperMonster003/AutoJs6) |        AutoJs6         | [SuperMonster003](https://github.com/SuperMonster003) | `2021/12/01` |
 
+
+******
+
+### PLUS
+
+******
+
+#### http
+* 处理拦截器重复添加导致ANR、闪退
+* timeout支持全局/单次配置
+
 ******
 
 ### 功能

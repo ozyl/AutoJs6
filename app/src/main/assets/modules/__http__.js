@@ -67,6 +67,9 @@ module.exports = function (scriptRuntime, scope) {
                                     request.header(key, value);
                                 }
                             });
+                            if(this.options.timeout){
+                               request.header('autojs6Timeout', this.options.timeout);
+                            }
                         },
                         setMethod(request) {
                             if (this.options.body) {
@@ -156,7 +159,6 @@ module.exports = function (scriptRuntime, scope) {
                             this.setUrl();
                             this.setHeader();
                             this.setMethod();
-
                             return this.request.build();
                         },
                         setUrl() {
@@ -172,6 +174,10 @@ module.exports = function (scriptRuntime, scope) {
 
                     return $$.build();
                 },
+                setGlobalConfig(options){
+                    let opt = options || {};
+                    this.__okhttp__.setTimeout((/* milliseconds = */ (opt.timeout || _.constants.DEFAULT_TIMEOUT)));
+                },
                 /**
                  * @param {string} url
                  * @param {Http.RequestBuilderOptions} [options]
@@ -183,8 +189,6 @@ module.exports = function (scriptRuntime, scope) {
                         ? continuation.create() : null;
 
                     let opt = options || {};
-
-                    this.__okhttp__.setTimeout((/* milliseconds = */ (opt.timeout || _.constants.DEFAULT_TIMEOUT)));
 
                     /**
                      * @type {okhttp3.Call}
