@@ -8,9 +8,11 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import android.util.SparseArray;
 import android.view.ViewGroup;
 
+import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+import kotlin.jvm.functions.Function0;
 /**
  * Created by Stardust on Mar 24, 2017.
  */
@@ -20,7 +22,7 @@ public class FragmentPagerAdapterBuilder {
         void OnInstantiate(int pos, Fragment fragment);
     }
 
-    private final List<Fragment> mFragments = new ArrayList<>();
+    private final List<Function0<? extends Fragment>> mFragments = new ArrayList<>();
     private final List<String> mTitles = new ArrayList<>();
     private final FragmentActivity mActivity;
 
@@ -28,14 +30,14 @@ public class FragmentPagerAdapterBuilder {
         mActivity = activity;
     }
 
-    public FragmentPagerAdapterBuilder add(Fragment fragment, String title) {
-        mFragments.add(fragment);
+    public FragmentPagerAdapterBuilder add(@NotNull Function0<? extends Fragment> buildFragment, String title) {
+        mFragments.add(buildFragment);
         mTitles.add(title);
         return this;
     }
 
-    public FragmentPagerAdapterBuilder add(Fragment fragment, int titleResId) {
-        return add(fragment, mActivity.getString(titleResId));
+    public FragmentPagerAdapterBuilder add(@NotNull Function0<? extends Fragment> buildFragment, int titleResId) {
+        return add(buildFragment, mActivity.getString(titleResId));
     }
 
     public StoredFragmentPagerAdapter build() {
@@ -43,7 +45,7 @@ public class FragmentPagerAdapterBuilder {
             @NonNull
             @Override
             public Fragment getItem(int position) {
-                return mFragments.get(position);
+                return mFragments.get(position).invoke();
             }
 
             @Override

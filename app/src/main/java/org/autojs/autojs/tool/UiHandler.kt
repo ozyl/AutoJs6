@@ -40,6 +40,9 @@ class UiHandler(val applicationContext: Context) : Handler(Looper.getMainLooper(
 
     private fun addAndShow(rawToast: Toast) {
         rawToast.show()
+        postDelayed({
+            ScriptToast.remove(rawToast, AutoJs.instance.runtime)
+        },if(rawToast.duration == LENGTH_LONG) 4000L else 2500L)
         ScriptToast.add(rawToast, AutoJs.instance.runtime)
     }
 

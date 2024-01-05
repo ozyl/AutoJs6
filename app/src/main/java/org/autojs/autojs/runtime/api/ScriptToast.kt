@@ -22,12 +22,17 @@ object ScriptToast {
     }
 
     @JvmStatic
+    fun remove(t: Any?, scriptRuntime: ScriptRuntime) {
+        if(pool[t] == scriptRuntime){
+            (t as? Toast)?.cancel()
+            pool.remove(t, scriptRuntime)
+        }
+    }
+
+    @JvmStatic
     fun dismissAll(scriptRuntime: ScriptRuntime) {
         for (entry in pool.entries) {
-            if (entry.value === scriptRuntime) {
-                entry.key.cancel()
-                pool.remove(entry.key, scriptRuntime)
-            }
+            remove(entry.key,entry.value)
         }
     }
 
