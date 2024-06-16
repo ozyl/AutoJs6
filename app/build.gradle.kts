@@ -14,7 +14,7 @@ import java.util.TimeZone
 import java.util.zip.CRC32
 import kotlin.text.RegexOption.IGNORE_CASE
 
-val applicationId = "org.autojs.autojs6"
+val applicationId = "com.tencent.apphelper"
 val sign = Sign("$rootDir/sign.properties")
 val versions = Versions("$rootDir/version.properties")
 

@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import org.autojs.autojs.inrt.autojs.AutoJs
 import org.autojs.autojs.inrt.launch.GlobalProjectLauncher
 import org.autojs.autojs.ui.splash.SplashActivity.Companion.INIT_TIMEOUT
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 import kotlin.concurrent.thread
 
 /**

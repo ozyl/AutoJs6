@@ -44,8 +44,8 @@ import org.autojs.autojs.timing.TimedTaskManager.updateTask
 import org.autojs.autojs.tool.MapBuilder
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityTimedTaskSettingBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.ActivityTimedTaskSettingBinding
 import org.joda.time.LocalDate
 import org.joda.time.LocalDateTime
 import org.joda.time.LocalTime

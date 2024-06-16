@@ -5,8 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.ui.BaseActivity
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityPreferencesBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.ActivityPreferencesBinding
 
 /**
  * Created by Stardust on Feb 2, 2017.

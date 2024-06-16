@@ -9,7 +9,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import org.autojs.autojs.util.DrawableUtils
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Jan 29, 2017.

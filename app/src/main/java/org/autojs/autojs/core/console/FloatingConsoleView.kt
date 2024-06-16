@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.util.Log
 import org.autojs.autojs.tool.MapBuilder
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 class FloatingConsoleView : ConsoleView {
 

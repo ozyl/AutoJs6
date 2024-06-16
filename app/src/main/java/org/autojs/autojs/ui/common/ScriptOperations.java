@@ -41,7 +41,7 @@ import org.autojs.autojs.ui.timing.TimedTaskSettingActivity;
 import org.autojs.autojs.util.EnvironmentUtils;
 import org.autojs.autojs.util.ViewUtils;
 import org.autojs.autojs.util.WorkingDirectoryUtils;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 import org.reactivestreams.Publisher;
 
 import java.io.File;

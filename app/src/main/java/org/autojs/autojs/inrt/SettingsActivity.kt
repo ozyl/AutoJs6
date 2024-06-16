@@ -3,7 +3,7 @@ package org.autojs.autojs.inrt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Dec 8, 2017.

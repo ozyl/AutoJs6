@@ -7,7 +7,7 @@ import android.os.Build
 import org.autojs.autojs.tool.ForegroundServiceCreator
 import org.autojs.autojs.ui.main.MainActivity
 import org.autojs.autojs.util.ForegroundServiceUtils
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Modified by SuperMonster003 as of Apr 10, 2022.

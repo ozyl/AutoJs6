@@ -26,7 +26,7 @@ import org.autojs.autojs.tool.MapBuilder;
 import org.autojs.autojs.ui.enhancedfloaty.ResizableExpandableFloatyWindow;
 import org.autojs.autojs.ui.log.LogActivity;
 import org.autojs.autojs.util.DisplayUtils;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

@@ -1,5 +1,6 @@
 package org.autojs.autojs.core.accessibility
 
+import android.os.Build
 import android.util.Log
 import android.view.KeyEvent
 import android.view.accessibility.AccessibilityEvent

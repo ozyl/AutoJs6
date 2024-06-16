@@ -6,7 +6,7 @@ import org.autojs.autojs.engine.ScriptEngine;
 import org.autojs.autojs.engine.ScriptEngineManager;
 import org.autojs.autojs.inrt.autojs.LoopBasedJavaScriptEngineWithDecryption;
 import org.autojs.autojs.script.JavaScriptSource;
-import org.autojs.autojs6.BuildConfig;
+import com.tencent.apphelper.BuildConfig;
 
 /**
  * Created by Stardust on Oct 27, 2017.

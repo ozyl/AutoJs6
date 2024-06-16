@@ -15,7 +15,7 @@ import org.autojs.autojs.core.accessibility.NodeInfo
 import org.autojs.autojs.util.ClipboardUtils
 import org.autojs.autojs.util.NumberUtils.toElegantlyDoubleString
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 import org.opencv.core.Point
 import java.lang.reflect.Field
 import kotlin.math.ceil

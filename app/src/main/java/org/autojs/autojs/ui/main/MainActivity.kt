@@ -54,8 +54,8 @@ import org.autojs.autojs.util.ForegroundServiceUtils
 import org.autojs.autojs.util.UpdateUtils
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.WorkingDirectoryUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityMainBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.ActivityMainBinding
 import org.greenrobot.eventbus.EventBus
 
 /**

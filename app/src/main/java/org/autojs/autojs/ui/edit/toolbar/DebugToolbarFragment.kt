@@ -20,8 +20,8 @@ import org.autojs.autojs.ui.edit.debug.DebuggerSingleton
 import org.autojs.autojs.ui.edit.editor.CodeEditor.BreakpointChangeListener
 import org.autojs.autojs.ui.edit.editor.CodeEditor.CursorChangeCallback
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FragmentDebugToolbarBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.FragmentDebugToolbarBinding
 import java.lang.ref.WeakReference
 
 /**

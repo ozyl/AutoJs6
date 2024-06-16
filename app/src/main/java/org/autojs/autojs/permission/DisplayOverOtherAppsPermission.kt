@@ -10,7 +10,7 @@ import org.autojs.autojs.ui.main.drawer.PermissionItemHelper
 import org.autojs.autojs.util.StringUtils.key
 import org.autojs.autojs.util.ThreadUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Jan 30, 2018.

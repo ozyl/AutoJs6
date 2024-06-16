@@ -21,9 +21,9 @@ import org.autojs.autojs.ui.project.BuildActivity;
 import org.autojs.autojs.ui.widget.BindableViewHolder;
 import org.autojs.autojs.ui.widget.FirstCharView;
 import org.autojs.autojs.util.Observers;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ExplorerFileBinding;
-import org.autojs.autojs6.databinding.ExplorerFirstCharIconBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.ExplorerFileBinding;
+import com.tencent.apphelper.databinding.ExplorerFirstCharIconBinding;
 
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;

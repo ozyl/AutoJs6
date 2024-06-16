@@ -11,7 +11,7 @@ import org.autojs.autojs.pio.PFiles;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.ui.common.ScriptOperations;
 import org.autojs.autojs.util.ViewUtils;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

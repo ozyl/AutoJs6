@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.View;
 
 import org.autojs.autojs.ui.edit.EditorView;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 import java.util.List;
 

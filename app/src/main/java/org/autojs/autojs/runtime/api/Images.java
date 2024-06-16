@@ -32,7 +32,7 @@ import org.autojs.autojs.core.ui.inflater.util.Drawables;
 import org.autojs.autojs.pio.UncheckedIOException;
 import org.autojs.autojs.pref.Language;
 import org.autojs.autojs.runtime.ScriptRuntime;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 import org.opencv.core.Point;
 import org.opencv.core.Rect;
 import org.opencv.imgproc.Imgproc;

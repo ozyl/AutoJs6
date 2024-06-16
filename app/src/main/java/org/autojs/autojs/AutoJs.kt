@@ -28,7 +28,7 @@ import org.autojs.autojs.ui.main.MainActivity
 import org.autojs.autojs.ui.project.BuildActivity
 import org.autojs.autojs.ui.settings.AboutActivity
 import org.autojs.autojs.ui.settings.PreferencesActivity
-import org.autojs.autojs6.BuildConfig
+import com.tencent.apphelper.BuildConfig
 import java.util.concurrent.Executors
 import org.autojs.autojs.inrt.autojs.AutoJs as AutoJsInrt
 

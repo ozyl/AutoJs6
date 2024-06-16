@@ -17,7 +17,7 @@ import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
 import org.autojs.autojs.tool.ForegroundServiceCreator;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 /**
  * Created by SuperMonster003 on Apr 10, 2022.

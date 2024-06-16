@@ -26,9 +26,9 @@ import org.autojs.autojs.theme.util.ListBuilder;
 import org.autojs.autojs.core.ui.widget.JsCheckBox;
 import org.autojs.autojs.util.ClipboardUtils;
 import org.autojs.autojs.util.ViewUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.DialogCodeGenerateBinding;
-import org.autojs.autojs6.databinding.DialogCodeGenerateOptionBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.DialogCodeGenerateBinding;
+import com.tencent.apphelper.databinding.DialogCodeGenerateOptionBinding;
 
 import java.util.ArrayList;
 import java.util.List;

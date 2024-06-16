@@ -14,8 +14,8 @@ import org.autojs.autojs.core.shizuku.IUserService
 import org.autojs.autojs.core.shizuku.UserService
 import org.autojs.autojs.util.App.*
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
+import com.tencent.apphelper.BuildConfig
+import com.tencent.apphelper.R
 import rikka.shizuku.Shizuku
 import org.autojs.autojs.runtime.api.AbstractShell.Result as ShellResult
 

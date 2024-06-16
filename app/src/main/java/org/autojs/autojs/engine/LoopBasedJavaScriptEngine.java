@@ -10,7 +10,7 @@ import org.autojs.autojs.core.looper.LooperHelper;
 import org.autojs.autojs.runtime.ScriptRuntime;
 import org.autojs.autojs.script.JavaScriptSource;
 import org.autojs.autojs.script.ScriptSource;
-import org.autojs.autojs6.BuildConfig;
+import com.tencent.apphelper.BuildConfig;
 import org.mozilla.javascript.ContinuationPending;
 
 /**

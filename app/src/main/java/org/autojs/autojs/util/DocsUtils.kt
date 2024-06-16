@@ -2,7 +2,7 @@ package org.autojs.autojs.util
 
 import org.autojs.autojs.pref.Pref
 import org.autojs.autojs.util.StringUtils.key
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 object DocsUtils {
 

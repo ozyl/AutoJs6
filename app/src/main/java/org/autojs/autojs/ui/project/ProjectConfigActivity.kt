@@ -29,8 +29,8 @@ import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.ui.shortcut.AppsIconSelectActivity
 import org.autojs.autojs.ui.widget.SimpleTextWatcher
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityProjectConfigBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.ActivityProjectConfigBinding
 import java.io.File
 import java.io.FileOutputStream
 import java.util.regex.Pattern

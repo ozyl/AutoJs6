@@ -13,8 +13,8 @@ import org.autojs.autojs.core.ui.inflater.EmptyView
 import org.autojs.autojs.core.ui.inflater.ResourceParser
 import org.autojs.autojs.core.ui.inflater.ViewCreator
 import org.autojs.autojs.core.ui.widget.JsActionMenuView
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.JsToolbarBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.JsToolbarBinding
 
 class JsMenuInflater(resourceParser: ResourceParser) : BaseViewInflater<View>(resourceParser) {
 

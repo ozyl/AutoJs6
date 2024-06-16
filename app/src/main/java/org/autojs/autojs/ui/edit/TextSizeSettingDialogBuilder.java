@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.DialogTextSizeSettingBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.DialogTextSizeSettingBinding;
 
 /**
  * Created by Stardust on Feb 24, 2018.

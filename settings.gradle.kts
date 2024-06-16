@@ -355,13 +355,13 @@ pluginManagement {
     buildscript {
 
         repositories {
-            mavenCentral()
-            google()
             maven("https://maven.aliyun.com/repository/central")
             maven("https://maven.aliyun.com/repository/google")
             maven("https://maven.aliyun.com/repository/gradle-plugin")
             maven("https://maven.aliyun.com/repository/jcenter")
             maven("https://maven.aliyun.com/repository/public")
+            mavenCentral()
+            google()
         }
 
         dependencies /* Gather platform information. */ {

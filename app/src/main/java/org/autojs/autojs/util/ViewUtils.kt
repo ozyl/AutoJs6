@@ -27,7 +27,7 @@ import com.google.android.material.snackbar.Snackbar
 import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.pref.Pref
 import org.autojs.autojs.util.StringUtils.key
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Jan 24, 2017.

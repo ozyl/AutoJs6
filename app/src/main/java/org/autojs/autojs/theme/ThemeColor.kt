@@ -8,7 +8,7 @@ import org.autojs.autojs.pref.Pref.containsKey
 import org.autojs.autojs.pref.Pref.getInt
 import org.autojs.autojs.pref.Pref.putInt
 import org.autojs.autojs.theme.ThemeColorManager.defaultThemeColor
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Mar 5, 2017.

@@ -5,7 +5,7 @@ import android.os.Looper;
 import android.util.Log;
 import android.util.SparseArray;
 
-import org.autojs.autojs6.BuildConfig;
+import com.tencent.apphelper.BuildConfig;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;

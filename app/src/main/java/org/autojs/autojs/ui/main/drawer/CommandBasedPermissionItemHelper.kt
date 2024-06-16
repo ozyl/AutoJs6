@@ -9,7 +9,7 @@ import org.autojs.autojs.ui.main.drawer.IPermissionItem.Companion.ACTION
 import org.autojs.autojs.util.ClipboardUtils
 import org.autojs.autojs.util.RootUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 interface CommandBasedPermissionItemHelper : PermissionItemHelper, IPermissionRootItem, IPermissionAdbItem {
 

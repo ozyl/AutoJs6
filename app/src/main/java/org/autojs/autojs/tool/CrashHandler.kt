@@ -8,7 +8,7 @@ import com.tencent.bugly.crashreport.CrashReport
 import com.tencent.bugly.crashreport.CrashReport.CrashHandleCallback
 import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.core.accessibility.AccessibilityService
-import org.autojs.autojs6.BuildConfig
+import com.tencent.apphelper.BuildConfig
 import org.mozilla.javascript.RhinoException
 import java.lang.Thread.UncaughtExceptionHandler
 

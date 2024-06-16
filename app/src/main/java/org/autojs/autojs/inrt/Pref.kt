@@ -4,7 +4,7 @@ import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
 
 import org.autojs.autojs.app.GlobalAppContext
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Dec 8, 2017.

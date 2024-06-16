@@ -18,8 +18,8 @@ import org.autojs.autojs.project.ProjectConfig
 import org.autojs.autojs.script.EncryptedScriptFileHeader.writeHeader
 import org.autojs.autojs.script.JavaScriptFileSource
 import org.autojs.autojs.util.MD5Utils
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
+import com.tencent.apphelper.BuildConfig
+import com.tencent.apphelper.R
 import pxb.android.StringItem
 import pxb.android.axml.AxmlWriter
 import zhao.arsceditor.ResDecoder.ARSCDecoder

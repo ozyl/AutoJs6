@@ -7,8 +7,8 @@ import androidx.annotation.NonNull;
 
 import org.autojs.autojs.ui.viewmodel.ExplorerItemList;
 import org.autojs.autojs.ui.widget.BindableViewHolder;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ExplorerCategoryBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.ExplorerCategoryBinding;
 
 class ExplorerCategoryViewHolder extends BindableViewHolder<Boolean> {
 

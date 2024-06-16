@@ -3,7 +3,7 @@ package org.autojs.autojs.ui.settings
 import android.os.Bundle
 import android.view.View
 import androidx.preference.PreferenceFragmentCompat
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 class PreferencesFragment : PreferenceFragmentCompat() {
 

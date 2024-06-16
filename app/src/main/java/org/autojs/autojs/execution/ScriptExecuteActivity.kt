@@ -22,7 +22,7 @@ import org.autojs.autojs.execution.ScriptExecution.AbstractScriptExecution
 import org.autojs.autojs.inrt.autojs.LoopBasedJavaScriptEngineWithDecryption
 import org.autojs.autojs.runtime.ScriptRuntime
 import org.autojs.autojs.script.ScriptSource
-import org.autojs.autojs6.BuildConfig
+import com.tencent.apphelper.BuildConfig
 import org.mozilla.javascript.ContinuationPending
 
 /**

@@ -7,7 +7,7 @@ import org.autojs.autojs.ui.enhancedfloaty.FloatyService
 import org.autojs.autojs.core.accessibility.NodeInfo
 import org.autojs.autojs.ui.floating.LayoutFloatyWindow
 import org.autojs.autojs.util.EventUtils.isKeyBackAndActionUp
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 /**
  * Created by Stardust on Mar 12, 2017.

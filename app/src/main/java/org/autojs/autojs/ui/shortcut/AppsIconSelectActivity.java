@@ -23,8 +23,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.autojs.autojs.groundwork.WrapContentGridLayoutManger;
 import org.autojs.autojs.ui.BaseActivity;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ActivityAppsIconSelectBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.ActivityAppsIconSelectBinding;
 
 import java.util.ArrayList;
 import java.util.List;

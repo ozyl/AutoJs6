@@ -9,7 +9,7 @@ import androidx.appcompat.widget.Toolbar;
 import org.autojs.autojs.theme.ThemeColor;
 import org.autojs.autojs.theme.ThemeColorManager;
 import org.autojs.autojs.theme.ThemeColorMutable;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 /**
  * Created by Stardust on Mar 5, 2017.

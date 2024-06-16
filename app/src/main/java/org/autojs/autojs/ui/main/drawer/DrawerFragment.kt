@@ -38,9 +38,9 @@ import org.autojs.autojs.util.NetworkUtils
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.MODE
 import org.autojs.autojs.util.ViewUtils.isNightModeYes
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FragmentDrawerBinding
+import com.tencent.apphelper.BuildConfig
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.FragmentDrawerBinding
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 

@@ -7,7 +7,7 @@ import org.autojs.autojs.core.ui.inflater.ResourceParser
 import org.autojs.autojs.core.ui.inflater.ViewCreator
 import org.autojs.autojs.core.ui.widget.JsTextSwitcher
 import org.autojs.autojs.core.ui.widget.JsTextView
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 class JsTextSwitcherInflater(resourceParser: ResourceParser) : TextSwitcherInflater<JsTextSwitcher>(resourceParser) {
 

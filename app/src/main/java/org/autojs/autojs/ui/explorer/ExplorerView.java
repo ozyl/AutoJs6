@@ -35,7 +35,7 @@ import org.autojs.autojs.ui.widget.BindableViewHolder;
 import org.autojs.autojs.util.EnvironmentUtils;
 import org.autojs.autojs.util.ViewUtils;
 import org.autojs.autojs.util.WorkingDirectoryUtils;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 import org.greenrobot.eventbus.Subscribe;
 import org.jetbrains.annotations.NotNull;
 

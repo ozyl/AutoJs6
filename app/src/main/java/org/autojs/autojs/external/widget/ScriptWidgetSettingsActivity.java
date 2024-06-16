@@ -16,8 +16,8 @@ import org.autojs.autojs.model.script.Scripts;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.ui.explorer.ExplorerView;
 import org.autojs.autojs.util.WorkingDirectoryUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ActivityScriptWidgetSettingsBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.ActivityScriptWidgetSettingsBinding;
 
 /**
  * Created by Stardust on Jul 11, 2017.

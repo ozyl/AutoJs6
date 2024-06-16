@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 
 import org.autojs.autojs.app.OnActivityResultDelegate;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 /**
  * Created by Stardust on Mar 5, 2017.

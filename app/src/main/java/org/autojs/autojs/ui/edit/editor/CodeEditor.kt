@@ -21,8 +21,8 @@ import org.autojs.autojs.util.StringUtils.indexOf
 import org.autojs.autojs.util.StringUtils.key
 import org.autojs.autojs.util.ViewUtils.showSnack
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.CodeEditorBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.CodeEditorBinding
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 import java.util.regex.PatternSyntaxException

@@ -25,8 +25,8 @@ import org.autojs.autojs.model.indices.Module;
 import org.autojs.autojs.model.indices.Modules;
 import org.autojs.autojs.model.indices.Property;
 import org.autojs.autojs.ui.widget.GridDividerDecoration;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.FunctionsKeyboardViewBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.FunctionsKeyboardViewBinding;
 
 import java.util.ArrayList;
 import java.util.HashMap;

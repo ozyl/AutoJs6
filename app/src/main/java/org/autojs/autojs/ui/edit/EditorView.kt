@@ -73,8 +73,8 @@ import org.autojs.autojs.util.DocsUtils.getUrl
 import org.autojs.autojs.util.Observers
 import org.autojs.autojs.util.ViewUtils.showSnack
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.EditorViewBinding
+import com.tencent.apphelper.R
+import com.tencent.apphelper.databinding.EditorViewBinding
 import java.io.File
 
 /**

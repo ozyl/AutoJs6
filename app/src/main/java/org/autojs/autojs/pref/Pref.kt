@@ -17,7 +17,7 @@ import org.autojs.autojs.util.StringUtils.key
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.AutoNightMode.Companion.isFunctional
 import org.autojs.autojs.util.ViewUtils.isNightModeYes
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
 import java.util.LinkedList

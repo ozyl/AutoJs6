@@ -13,7 +13,7 @@ import org.autojs.autojs.AutoJs
 import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.core.image.ColorTable
 import org.autojs.autojs.theme.ThemeColor
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 import kotlin.math.pow
 import kotlin.math.roundToInt
 

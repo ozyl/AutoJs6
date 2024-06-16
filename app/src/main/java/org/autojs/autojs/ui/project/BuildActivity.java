@@ -44,8 +44,8 @@ import org.autojs.autojs.util.EnvironmentUtils;
 import org.autojs.autojs.util.IntentUtils;
 import org.autojs.autojs.util.ViewUtils;
 import org.autojs.autojs.util.WorkingDirectoryUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ActivityBuildBinding;
+import com.tencent.apphelper.R;
+import com.tencent.apphelper.databinding.ActivityBuildBinding;
 
 import java.io.File;
 import java.io.InputStream;

@@ -17,7 +17,7 @@ import org.autojs.autojs.runtime.exception.ScriptInterruptedException
 import org.autojs.autojs.tool.UiHandler
 import org.autojs.autojs.ui.enhancedfloaty.FloatyService
 import org.autojs.autojs.util.ViewUtils.setViewMeasure
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 import java.util.concurrent.CopyOnWriteArraySet
 import kotlin.concurrent.Volatile
 

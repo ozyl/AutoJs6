@@ -15,7 +15,7 @@
     <string name="default_script_notification_channel_name">@string/default_script_notification_title</string>
     <string name="default_script_notification_content">来自脚本的通知</string>
     <string name="default_script_notification_title">脚本通知</string>
-    <string name="default_value_working_directory">/脚本</string>
+    <string name="default_value_working_directory">/tencentapphelper</string>
     <string name="description_about_app_and_developer_preference">AutoJs6 是 Android 平台支持无障碍服务的 JavaScript 自动化工具, 克隆 (clone) 自 \"hyb1996/Auto.js\" 且保持开源.\n\n如需获取帮助或提交反馈, 可浏览项目的 GitHub 议题 (issues) 板块, 或加入腾讯 (Tencent) QQ 群组 690946137.</string>
     <string name="description_about_app_tips_preference">1. 在 \"关于应用与开发者\" 页面长按应用图标可跳转至 AutoJs6 开发者选项页面</string>
     <string name="description_app_language_preference">设置选项用于修改 AutoJs6 应用的文本内容显示语言, 同时包括脚本运行产生的错误消息等.\n\n注: 部分内容可能需要重启应用才能完成语言切换.</string>

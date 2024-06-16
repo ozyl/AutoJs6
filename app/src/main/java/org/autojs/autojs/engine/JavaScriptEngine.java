@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import org.autojs.autojs.runtime.ScriptRuntime;
 import org.autojs.autojs.script.JavaScriptSource;
 import org.autojs.autojs.script.ScriptSource;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 /**
  * Created by Stardust on Aug 3, 2017.

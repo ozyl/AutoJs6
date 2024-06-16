@@ -9,7 +9,7 @@ import android.os.IBinder;
 
 import androidx.annotation.Nullable;
 
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 import org.autojs.autojs.tool.ForegroundServiceCreator;
 import org.autojs.autojs.util.ForegroundServiceUtils;
 

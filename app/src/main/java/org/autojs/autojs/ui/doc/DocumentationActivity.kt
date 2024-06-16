@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.webkit.WebView
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.DocsUtils.getUrl
-import org.autojs.autojs6.databinding.ActivityDocumentationBinding
+import com.tencent.apphelper.databinding.ActivityDocumentationBinding
 
 /**
  * Created by Stardust on Oct 24, 2017.

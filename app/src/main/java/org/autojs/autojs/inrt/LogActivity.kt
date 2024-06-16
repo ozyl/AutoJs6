@@ -13,7 +13,7 @@ import org.autojs.autojs.inrt.launch.GlobalProjectLauncher
 import org.autojs.autojs.core.console.ConsoleImpl
 import org.autojs.autojs.core.console.ConsoleView
 import org.autojs.autojs.ui.BaseActivity
-import org.autojs.autojs6.R
+import com.tencent.apphelper.R
 
 class LogActivity : BaseActivity() {
 

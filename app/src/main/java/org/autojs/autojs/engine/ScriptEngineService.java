@@ -23,7 +23,7 @@ import org.autojs.autojs.runtime.exception.ScriptInterruptedException;
 import org.autojs.autojs.script.JavaScriptSource;
 import org.autojs.autojs.script.ScriptSource;
 import org.autojs.autojs.tool.UiHandler;
-import org.autojs.autojs6.R;
+import com.tencent.apphelper.R;
 
 import java.text.MessageFormat;
 import java.util.Collection;
